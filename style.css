@@ -1,0 +1,33 @@
+input:focus{
+    outline: 1px solid #000;
+}
+
+.card{
+    box-shadow: 2px 5px 10px #ccc;
+}
+
+.list-group-item{
+    position: relative;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.btn-danger{
+    position: absolute;
+    left: -20px;
+    top:0;
+    transform: translateY(30%);
+    margin-right: 100px;
+}
+
+li.minus{
+    color: red;
+}
+
+li.plus{
+    color:green
+}
+
+li{
+    list-style: none;
+}
